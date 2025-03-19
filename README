@@ -1,0 +1,17 @@
+# iOS target 16.0
+# used Xcode Latest 16.2
+# I have used MVVM Architecture pattern
+
+###### Steps to run app ########
+1. Open Xcode and Run Project 
+2. Tested on device latest iPhone simulator iOS 18, iPhone 16, SE
+3. See First screen list of article
+4  Click on Article you will able to see Details 
+
+
+#### Github Url ##
+
+
+Notes: 
+1. As it is simple project so I did not used any library even for image cacheing
+2. I added infinite scrolling just appending same content while scrolling.
