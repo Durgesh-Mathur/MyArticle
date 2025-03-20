@@ -14,7 +14,7 @@ class ArticleListViewModelTests: XCTestCase {
     func testLoadArticles_ShouldReturnCorrectCount() async {
         // Arrange
         let mockService = HomeCoreService()
-        let viewmodel = OAHomeScreenViewModel(coreService: mockService)
+        let viewmodel = ArticleViewModel(coreService: mockService)
       
         let expectation = XCTestExpectation(description: "Fetch articles")
         
@@ -32,7 +32,7 @@ class ArticleListViewModelTests: XCTestCase {
     func testArticleAtIndex_ShouldReturnCorrectTitle() async {
         // Arrange
         let mockService = HomeCoreService()
-        let viewmodel = OAHomeScreenViewModel(coreService: mockService)
+        let viewmodel = ArticleViewModel(coreService: mockService)
       
         let expectation = XCTestExpectation(description: "Fetch articles")
         

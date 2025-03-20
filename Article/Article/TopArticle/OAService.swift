@@ -16,7 +16,7 @@ class HomeCoreService : OACoreServiceProtocol {
     }
     
     func fetchTopHeadline(pageNumber: Int) async throws -> MyArticle? {
-        let endpoint = OAEndpoint.initializeToken
+        let endpoint = OAEndpoint.topHeadline
         do {
             return try await networkService.sendRequest(endpoint: endpoint)
         } catch {

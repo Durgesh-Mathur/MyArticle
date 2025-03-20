@@ -6,7 +6,7 @@
 //
 import Foundation
 
-class OAHomeScreenViewModel {
+class ArticleViewModel {
  
     private let coreService: OACoreServiceProtocol
 

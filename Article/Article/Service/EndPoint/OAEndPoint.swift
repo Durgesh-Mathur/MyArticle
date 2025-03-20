@@ -12,10 +12,10 @@ enum OAHost: String {
     }
 }
 enum OAEndpoint {
-    case initializeToken
+    case topHeadline
     var method: String {
         return switch self {
-        case  .initializeToken: "GET"
+        case  .topHeadline: "GET"
         default: "POST"
         }
     }

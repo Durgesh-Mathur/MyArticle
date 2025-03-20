@@ -6,7 +6,7 @@ extension OAEndpoint {
     var body: Data? {
         var parameters: [String: Any] = [:]
         switch self {
-        case .initializeToken:
+        case .topHeadline:
             return nil
             
         }
