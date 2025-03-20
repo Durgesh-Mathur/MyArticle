@@ -8,10 +8,6 @@
 3. See First screen list of article
 4  Click on Article you will able to see Details 
 
-
-#### Github Url ##
-
-
 Notes: 
 1. As it is simple project so I did not used any library even for image cacheing
 2. I added infinite scrolling just appending same content while scrolling.
