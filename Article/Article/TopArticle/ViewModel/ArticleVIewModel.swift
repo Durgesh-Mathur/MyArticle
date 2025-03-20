@@ -12,7 +12,7 @@ class ArticleViewModel {
 
     var listOfArticle: [Article] = []
     var currentPage = 0
-    init(coreService: OACoreServiceProtocol = HomeCoreService()) {
+    init(coreService: OACoreServiceProtocol = ArticleService()) {
         self.coreService = coreService
     }
     

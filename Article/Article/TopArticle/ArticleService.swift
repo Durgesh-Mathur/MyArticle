@@ -9,7 +9,7 @@ import Foundation
 
 let apiKey: String = "9787e3a5f2cb48ffa0d005721ad7813d"
 
-class HomeCoreService : OACoreServiceProtocol {
+class ArticleService : OACoreServiceProtocol {
     
     private var networkService: OANetworkServiceProtocol
     init(networkService: OANetworkServiceProtocol = OANetworkService()) {
