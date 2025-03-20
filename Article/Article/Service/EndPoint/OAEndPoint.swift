@@ -12,7 +12,7 @@ enum OAHost: String {
     }
 }
 enum OAEndpoint {
-    case topHeadline
+    case topHeadline(sources: String, apiKey: String)
     var method: String {
         return switch self {
         case  .topHeadline: "GET"

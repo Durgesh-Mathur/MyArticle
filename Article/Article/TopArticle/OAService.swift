@@ -7,6 +7,8 @@
 
 import Foundation
 
+let apiKey: String = "9787e3a5f2cb48ffa0d005721ad7813d"
+
 class HomeCoreService : OACoreServiceProtocol {
     
     private var networkService: OANetworkServiceProtocol
@@ -16,7 +18,7 @@ class HomeCoreService : OACoreServiceProtocol {
     }
     
     func fetchTopHeadline(pageNumber: Int) async throws -> MyArticle? {
-        let endpoint = OAEndpoint.topHeadline
+        let endpoint = OAEndpoint.topHeadline(sources: "techcrunch", apiKey: apiKey)
         do {
             return try await networkService.sendRequest(endpoint: endpoint)
         } catch {
